@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="foodmart"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Foodmart">
+        <activity
+            android:name=".view.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ResetPasswordActivity"
+            android:exported="false" />
+        <!-- LoginActivity as the main launcher -->
+        <activity
+            android:name=".view.LoginActivity"
+            android:exported="true"
+            android:label="FoodMart Login"
+            android:theme="@style/Theme.Foodmart"/>
+
+
+
+        <!-- MainActivity for other purposes -->
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true"
+            android:label="foodmart"
+            android:theme="@style/Theme.Foodmart" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>>
+
+        <activity
+            android:name=".view.AddProductActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".view.EditProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ViewProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.RegistrationActivity"
+            android:exported="false"
+            android:label="Registration"
+            android:theme="@style/Theme.Foodmart" />
+
+
+
+    </application>
+
+</manifest>
