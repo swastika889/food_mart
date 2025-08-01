@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "166154918670",
+    "firebase_url": "https://foodmart-33ebd-default-rtdb.firebaseio.com",
+    "project_id": "foodmart-33ebd",
+    "storage_bucket": "foodmart-33ebd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166154918670:android:b0c471e8fa3387d666955f",
+        "android_client_info": {
+          "package_name": "com.example.foodmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZwxTQg_h8oeRYEpJYLHJ3Rp1ILo-Wr5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

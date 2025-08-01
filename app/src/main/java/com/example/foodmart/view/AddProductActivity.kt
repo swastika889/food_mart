@@ -71,7 +71,7 @@ fun AddProductScreen(
 ) {
     val context = LocalContext.current
 
-    // FoodMart theme colors
+    // FoodMart theme colors.
     val primaryColor = Color(0xFFE91E63)
     val secondaryColor = Color(0xFFFF9800)
     val backgroundColor = Color(0xFFFFF3E0)
