@@ -57,7 +57,7 @@ class AddProductActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AddProductScreen(productViewModel) {
-                finish() // Close activity and return to dashboard
+                finish()
             }
         }
     }
